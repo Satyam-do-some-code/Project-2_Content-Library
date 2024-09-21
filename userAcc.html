@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Account</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/userAcc.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+
+
+
+</head>
+<body>
+
+        <nav>
+        <div class="container nav__container">
+            <a href="main.html"><h3>CODIFY</h3></a>
+            <ul class="nav__menu">
+                <li><a href="main.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="userAcc.html"><i class="fa-solid fa-circle-user" style="color: #fafcff;" id="user"></i></a></li>
+            </ul>
+        <button id="open-menu-btn"><i class="fa-solid fa-bars" style="color: #fff;"></i></button>
+
+        <button id="close-menu-btn"><i class="fa-solid fa-xmark" style="color: #fff;"></i></button>
+        </div>
+    </nav>
+
+    <!----===============END OF NAVBAR=================-->
+
+    
+    
+<div id="user__info">
+
+
+
+
+       <h1>Account</h1>
+
+       <div class="user__icon">
+        <i class="fa-regular fa-circle-user fa-2xl" style="color: #ffffffee;"></i>
+       </div>
+
+
+    <div class="user__detail">
+        
+        <div class="user">
+            <h2>Username :</h2> <h2 id="User_name"></h2>
+        </div>
+
+        <div class="user">
+            <h2>Email id :</h2> <h2 id="User_email"></h2>
+        </div>
+
+        <div class="user">
+            <h2>Password :</h2> <h2 id="User_password"></h2>
+        </div>
+
+    </div>
+
+</div>
+</body>
+<script src="form.js"></script>
+<script src="main.js"></script>
+</html>

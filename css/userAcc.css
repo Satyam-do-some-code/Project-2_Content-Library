@@ -1,0 +1,112 @@
+body{
+    background: var(--color-bg);
+    background-image: url(/images/bg-texture.png);
+}
+h2{
+    font-size: 1.7rem;
+}
+
+#user__info{
+    position: relative;
+    top: 10rem;
+    display: flex;
+    justify-content: center;
+}
+#user__info>h1{
+    position: relative;
+    top: 4rem;
+    left: 31.7rem;
+}
+.user__icon{
+    position: relative;
+    font-size: 13rem;
+    top: 2rem;
+    right: 20rem;
+}
+.user__detail{
+     display: flex;
+     flex-direction: column;
+     position: relative;
+     right: 9rem;
+     top: 10rem;
+}
+
+
+#User_name{
+    position: relative;
+    bottom: 2rem;
+    left: 13rem;
+}
+#User_email{
+    position: relative;
+    bottom: 2rem;
+    left: 13rem;
+}
+#User_password{
+    position: relative;
+    bottom: 2rem;
+    left: 13rem;
+}
+
+
+/*    ================== MEDIA QUERIES (TABLETS) ================ */
+@media screen and (max-width: 1024px) {
+    .user__icon{
+        position: relative;
+        font-size: 13rem;
+        top: 20rem;
+    }
+    #user__info>h1{
+        font-size: 3rem;
+        position: relative;
+        top: 20rem;
+        left: 30.7rem;
+    }
+    .user__detail{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        right: 13.8rem;
+        top: 30rem;
+        
+   }
+}
+@media screen and (max-width: 600px){
+    .user__icon{
+        position: relative;
+        font-size: 8rem;
+        top: 2rem;
+        left: 4.8rem;
+    }
+    #user__info>h1{
+        font-size: 1.9rem;
+        position: relative;
+        top: 20rem;
+        left: 16.7rem;
+    }
+    .user__detail{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        right: 14.8rem; 
+   }
+   .user>h2{
+      font-size: 1.3rem;
+   }
+
+   #User_name{
+    position: relative;
+    bottom: 1.6rem;
+    left: 9rem;
+}
+#User_email{
+    position: relative;
+    bottom: 1.6rem;
+    left: 6.2rem;
+}
+#User_password{
+    position: relative;
+    bottom: 1.6rem;
+    left: 9rem;
+}
+}
