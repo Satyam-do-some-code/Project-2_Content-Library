@@ -68,10 +68,21 @@
             <h2>Password :</h2> <h2 id="User_password"></h2>
         </div>
 
+         <button class="logout-btn">
+    Logout
+    <div class="circle"></div>
+  </button>
     </div>
 
 </div>
 </body>
 <script src="form.js"></script>
 <script src="main.js"></script>
+
+<script>
+    const logOut = document.querySelector(".logout-btn");
+    logOut.addEventListener("click",()=>{
+        window.location.href = "index.html";
+    })
+</script>
 </html>
